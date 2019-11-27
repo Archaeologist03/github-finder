@@ -1,34 +1,16 @@
 import React, { Component } from 'react';
 import Navbar from './components/layout/Navbar';
-import UserItem from './components/users/UserItem';
 import './App.css';
+import Users from './components/users/Users';
 
 class App extends Component {
-	state = {
-		users: [],
-	};
-
-	componentDidMount() {
-		fetch('https://api.github.com/users')
-			.then(data => data.json())
-			.then(users =>
-				this.setState(() => {
-					let sixUsers = [];
-					for (let i = 0; i < 6; i++) {
-						sixUsers.push(users[i]);
-					}
-					return { users: sixUsers };
-				}),
-			);
-	}
-
 	render() {
 		return (
 			<div className='App'>
 				<Navbar title='Github Finder' icon='fab fa-github' />
-				{this.state.users.map(user => (
-					<UserItem key={user.id} user={user} />
-				))}
+				<div className='container'>
+					<Users />
+				</div>
 			</div>
 		);
 	}
