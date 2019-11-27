@@ -11,7 +11,15 @@ class App extends Component {
 	componentDidMount() {
 		fetch('https://api.github.com/users')
 			.then(data => data.json())
-			.then(users => this.setState({ users }));
+			.then(users =>
+				this.setState(() => {
+					let sixUsers = [];
+					for (let i = 0; i < 6; i++) {
+						sixUsers.push(users[i]);
+					}
+					return { users: sixUsers };
+				}),
+			);
 	}
 
 	render() {
