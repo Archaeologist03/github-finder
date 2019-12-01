@@ -1,9 +1,5 @@
 <h1 align="center">Welcome to github-finder 👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/github-finder" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/github-finder.svg">
-  </a>
-</p>
+
 
 > Search for users and their github info
 
