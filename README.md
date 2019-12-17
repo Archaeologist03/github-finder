@@ -16,9 +16,6 @@ npm run start
 ```
 
 
-## Author
-
-👤 **Ilija**
 
 * Website: https://ilija03.tk/
 * Github: [@archaeologist03](https://github.com/archaeologist03)
