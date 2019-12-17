@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to github-finder 👋</h1>
+<h1 align="center">Welcome to GitHub Finder 👋</h1>
 
 
 > Search for users and their github info
@@ -15,11 +15,6 @@ npm install
 npm run start
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
 
 ## Author
 
@@ -28,7 +23,4 @@ npm run test
 * Website: https://ilija03.tk/
 * Github: [@archaeologist03](https://github.com/archaeologist03)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
